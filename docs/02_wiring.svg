@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="sans-serif" font-size="14">
+<rect width="760" height="380" fill="#fff"/>
+<text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold">配線(スケッチで指定しているピン)</text>
+<rect x="290" y="55" width="180" height="290" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+<text x="380" y="85" text-anchor="middle" font-weight="bold">Arduino UNO R4 WiFi</text>
+<rect x="20" y="80" width="150" height="60" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+<text x="95" y="107" text-anchor="middle" font-weight="bold">DHT22</text>
+<text x="95" y="127" text-anchor="middle" font-size="12">温湿度センサ</text><text x="95" y="150" text-anchor="middle" font-size="12" fill="#c62828">電源 5V</text>
+<line x1="170" y1="110" x2="290" y2="110" stroke="#333" stroke-width="2"/>
+<text x="230" y="102" text-anchor="middle" font-size="12">データ線(抵抗なし)</text>
+<text x="300" y="115" font-size="13" fill="#2e7d32">D2</text>
+<rect x="590" y="110" width="150" height="220" rx="8" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+<text x="665" y="140" text-anchor="middle" font-weight="bold">LCD</text>
+<text x="665" y="160" text-anchor="middle" font-size="12">ST7735(128x128)</text><text x="665" y="180" text-anchor="middle" font-size="12" fill="#c62828">VCC = 3.3V</text>
+<g stroke="#333" stroke-width="2">
+<line x1="470" y1="190" x2="590" y2="190"/><line x1="470" y1="222" x2="590" y2="222"/>
+<line x1="470" y1="254" x2="590" y2="254"/><line x1="470" y1="286" x2="590" y2="286"/>
+<line x1="470" y1="318" x2="590" y2="318"/></g>
+<g font-size="13">
+<text x="440" y="195" text-anchor="end" fill="#2e7d32">D10</text><text x="530" y="184" text-anchor="middle" font-size="12">CS(選択)</text>
+<text x="440" y="227" text-anchor="end" fill="#2e7d32">D8</text><text x="530" y="216" text-anchor="middle" font-size="12">DC(命令/データ)</text>
+<text x="440" y="259" text-anchor="end" fill="#2e7d32">D9</text><text x="530" y="248" text-anchor="middle" font-size="12">RST(リセット)</text>
+<text x="440" y="291" text-anchor="end" fill="#2e7d32">SCK</text><text x="530" y="280" text-anchor="middle" font-size="12">クロック(SPI)</text>
+<text x="440" y="323" text-anchor="end" fill="#2e7d32">MOSI</text><text x="530" y="312" text-anchor="middle" font-size="12">データ(SPI)</text></g>
+<rect x="20" y="250" width="150" height="60" rx="8" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+<text x="95" y="277" text-anchor="middle" font-weight="bold">9V乾電池(6F22)</text>
+<text x="95" y="297" text-anchor="middle" font-size="12">VIN端子へ</text>
+<line x1="170" y1="280" x2="290" y2="280" stroke="#c62828" stroke-width="2"/>
+<text x="230" y="272" text-anchor="middle" font-size="12" fill="#c62828">+ → VIN / − → GND</text>
+<text x="380" y="368" text-anchor="middle" font-size="12" fill="#555">※ 5本の信号線には、それぞれ 1kΩ+2kΩ の分圧抵抗を入れています(図07)。センサ・LCDの電源/GND線は、プログラムに現れないため省略。部品の仕様に合わせてつなぎます。</text>
+</svg>
